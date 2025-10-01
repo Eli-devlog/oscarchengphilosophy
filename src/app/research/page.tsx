@@ -1,7 +1,17 @@
 // src/app/research/page.tsx
 import type { Metadata } from "next";
 import Link from "next/link";
-import { researchEntries } from "@/content/registry";
+
+// ...
+<Link
+  href={e.url}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 rounded-xl border border-neutral-800 px-4 py-2 text-sm font-medium text-neutral-900 transition hover:-translate-y-0.5 hover:shadow"
+>
+  Read full essay
+  <svg /* … */ />
+</Link>import { researchEntries } from "@/content/registry";
 
 export const metadata: Metadata = {
   title: "Research | Oscar Cheng",
