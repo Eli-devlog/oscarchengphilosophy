@@ -1,20 +1,36 @@
+// src/components/Card.tsx
+import { ReactNode } from "react";
+import clsx from "clsx";
+
 type CardProps = {
   title: string;
-  subtitle?: string;
-  href?: string;
-  children?: React.ReactNode;
+  eyebrow?: string;
+  children: ReactNode;
+  className?: string;
 };
 
-export default function Card({ title, subtitle, href, children }: CardProps) {
-  const Wrapper: any = href ? "a" : "div";
+export default function Card({
+  title,
+  eyebrow,
+  children,
+  className,
+}: CardProps) {
   return (
-    <Wrapper
-      {...(href ? { href, target: "_self" } : {})}
-      className="block rounded-2xl border p-5 transition hover:shadow-sm"
+    <article
+      className={clsx(
+        "rounded-2xl border border-neutral-200 bg-white/70 p-6 shadow-sm transition hover:shadow-md",
+        className
+      )}
     >
-      <h3 className="text-lg font-semibold">{title}</h3>
-      {subtitle && <p className="mt-1 text-sm text-gray-500">{subtitle}</p>}
-      {children && <div className="mt-3 text-sm leading-relaxed text-gray-700">{children}</div>}
-    </Wrapper>
+      {eyebrow && (
+        <div className="mb-1 text-xs uppercase tracking-wide text-neutral-500">
+          {eyebrow}
+        </div>
+      )}
+      <h3 className="text-lg font-medium">{title}</h3>
+      <div className="mt-3 text-[15px] leading-relaxed text-neutral-700">
+        {children}
+      </div>
+    </article>
   );
 }
