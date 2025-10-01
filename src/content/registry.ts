@@ -35,6 +35,18 @@ export const researchEntries: Entry[] = [
     url: "https://your-substack.example/essay/interfaces-truth-defaults",
     readTime: "11 min",
   },
+    {
+    id: "attention-schemas-design",
+    title: "Attention Schemas and the Norms of Design",
+    date: "2025-10-01",
+    tags: ["Epistemology", "Attention", "Design Ethics"],
+    abstract:
+      "Extends the ‘epistemic architecture’ frame by analyzing how interfaces instantiate attention schemas—built-in expectations about salience, sequence, and stoppability. Argues that design choices quietly legislate epistemic norms by prefiguring what counts as interruptible, credible, or dismissible.",
+    excerpt:
+      "An attention schema is a story the system tells about where focus should go next. Infinite scrolls, sticky CTAs, and notification ladders are not mere convenience—they are governance. They stipulate what deserves your glance, what lingers at the edge of awareness, and what is systematically forgotten. When such schemas scale, they don’t just allocate time; they allocate justification. A thing seen more often becomes easier to treat as reason-worthy. That is a normative effect disguised as UX.",
+    url: "https://your-substack.example/essay/attention-schemas-design",
+    readTime: "9 min",
+  },
 ];
 
 export const essayEntries: Entry[] = [
