@@ -1,5 +1,5 @@
 // src/content/registry.ts
-export type EssayEntry = {
+export type Entry = {
   id: string;
   title: string;
   date: string;
@@ -10,16 +10,16 @@ export type EssayEntry = {
   readTime?: string;
 };
 
-export const researchEntries: EssayEntry[] = [
+export const researchEntries: Entry[] = [
   {
     id: "design-epistemic-architecture",
     title: "Design as Epistemic Architecture",
     date: "2025-09-15",
     tags: ["Conceptual Engineering", "Epistemology", "HCI"],
     abstract:
-      "This essay argues that interface design should be treated as epistemic infrastructure...",
+      "Interface design as epistemic infrastructure…",
     excerpt:
-      "When an interface hides a choice behind a modal, it doesn’t just slow a user...",
+      "When an interface hides a choice…",
     url: "https://your-substack.example/essay/design-as-epistemic-architecture",
     readTime: "14 min",
   },
@@ -29,10 +29,37 @@ export const researchEntries: EssayEntry[] = [
     date: "2025-08-02",
     tags: ["Philosophy of Technology", "Cognition"],
     abstract:
-      "Building on extended-mind and postphenomenology, this piece tracks how platforms create ‘truth-defaults’...",
+      "How platforms create ‘truth-defaults’…",
     excerpt:
-      "Truth-defaults are not beliefs but settings. They live in caching rules...",
+      "Truth-defaults are not beliefs but settings…",
     url: "https://your-substack.example/essay/interfaces-truth-defaults",
     readTime: "11 min",
+  },
+];
+
+export const essayEntries: Entry[] = [
+  {
+    id: "choice-vs-information",
+    title: "The Real Advantage Isn’t More Options — It’s More Information",
+    date: "2025-09-30",
+    tags: ["Decision Theory", "Career", "Design"],
+    abstract:
+      "Why visibility of options beats quantity of options; the Krisp anecdote and hidden menus.",
+    excerpt:
+      "We often measure freedom in terms of the number of choices. But freedom is about the visibility of choices…",
+    url: "https://your-substack.example/essay/choice-vs-information",
+    readTime: "7 min",
+  },
+  {
+    id: "interfaces-carry-norms",
+    title: "When Interfaces Carry Norms",
+    date: "2025-09-10",
+    tags: ["UX", "Normativity", "Epistemology"],
+    abstract:
+      "UX as pre-structured belief: defaults, rhythms, and the ethics of ease.",
+    excerpt:
+      "A scroll-driven feed is not a window; it is a pacing mechanism for attention…",
+    url: "https://your-substack.example/essay/interfaces-carry-norms",
+    readTime: "6 min",
   },
 ];
