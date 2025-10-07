@@ -3,7 +3,7 @@ import Link from "next/link";
 import Card from "@/components/Card";
 import { essayEntries } from "@/content/registry";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Essays | Oscar Cheng",
   description:
     "Short Essays about applied philosophy regarding Business, System and Life in general.",

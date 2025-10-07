@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Card from "@/components/Card";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Home | Oscar Cheng",
   description:
     "Home Page.",

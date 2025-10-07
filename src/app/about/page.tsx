@@ -1,4 +1,4 @@
-export const metadata: Metadata = {
+export const metadata = {
   title: "About | Oscar Cheng",
   description:
     "Page of Personal Profile.",
