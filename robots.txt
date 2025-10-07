@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://oscarchengphilosophy.com/sitemap.xml

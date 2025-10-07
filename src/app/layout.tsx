@@ -5,11 +5,30 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Oscar Cheng — Philosophy & Design",
-  description: "Design as epistemic architecture: research, essays, and projects by Oscar Cheng.",
+  description:
+    "Design as epistemic architecture: research, essays, and projects by Oscar Cheng.",
   metadataBase: new URL("https://oscarchengphilosophy.com"),
+
+  // ✅ add trust + PWA indicators
+  themeColor: "#ffffff",
+  icons: {
+    icon: "/favicon.ico", // optional, if you have one
+  },
+  openGraph: {
+    title: "Oscar Cheng — Philosophy & Design",
+    description:
+      "Research portfolio on conceptual engineering, epistemic design, and digital cognition.",
+    url: "https://oscarchengphilosophy.com",
+    siteName: "Oscar Cheng Philosophy",
+    type: "website",
+  },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body className="min-h-screen bg-white text-gray-900">
