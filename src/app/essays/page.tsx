@@ -3,6 +3,12 @@ import Link from "next/link";
 import Card from "@/components/Card";
 import { essayEntries } from "@/content/registry";
 
+export const metadata: Metadata = {
+  title: "Essays | Oscar Cheng",
+  description:
+    "Short Essays about applied philosophy regarding Business, System and Life in general.",
+};
+
 export default function Essays() {
   return (
     <section className="space-y-6">
@@ -31,9 +37,6 @@ export default function Essays() {
         ))}
       </div>
 
-      <p className="text-sm text-gray-500">
-        Want to collaborate? Reach out via the Contact page.
-      </p>
     </section>
   );
 }

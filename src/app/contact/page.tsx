@@ -1,3 +1,9 @@
+export const metadata: Metadata = {
+  title: "Contact | Oscar Cheng",
+  description:
+    "Email and Linkedin Page",
+};
+
 export default function Contact() {
   return (
     <section className="space-y-4">

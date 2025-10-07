@@ -23,11 +23,11 @@ function formatDate(d: string) {
 
 export default function ResearchPage() {
   return (
-    <main className="mx-auto max-w-5xl px-6 py-16">
+    <main className="mx-auto max-w-5xl px-6 pt-0 pb-16">
       <header className="mb-10">
         <h1 className="text-3xl font-semibold tracking-tight">Research</h1>
         <p className="mt-3 text-neutral-600">
-          Abstracts and key excerpts (~200 words). Click through for the full essay.
+        Working papers toward my PhD project on conceptual engineering and digital design.
         </p>
       </header>
 
@@ -93,9 +93,6 @@ export default function ResearchPage() {
         ))}
       </section>
 
-      <footer className="mt-12 border-t border-neutral-200 pt-6 text-sm text-neutral-500">
-        Want PDFs or references? <Link href="/contact" className="underline">Contact me</Link>.
-      </footer>
     </main>
   );
 }

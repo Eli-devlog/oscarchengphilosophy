@@ -1,6 +1,12 @@
 import Link from "next/link";
 import Card from "@/components/Card";
 
+export const metadata: Metadata = {
+  title: "Home | Oscar Cheng",
+  description:
+    "Home Page.",
+};
+
 export default function Home() {
   return (
     <section className="space-y-10">
@@ -14,7 +20,7 @@ export default function Home() {
       </div>
 
       <div className="grid gap-4 sm:grid-cols-2">
-        <Card title="Research" subtitle="Projects, frameworks, references" href="/research">
+        <Card title="Research" subtitle="Projects & frameworks" href="/research">
           Current focus: interfaces as epistemic infrastructures; designers as conceptual engineers; scroll-driven
           architectures and affective cues.
         </Card>

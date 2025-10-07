@@ -1,3 +1,9 @@
+export const metadata: Metadata = {
+  title: "About | Oscar Cheng",
+  description:
+    "Page of Personal Profile.",
+};
+
 export default function About() {
   return (
     <section className="prose max-w-3xl">
