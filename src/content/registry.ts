@@ -40,7 +40,7 @@ export const researchEntries: Entry[] = [
 export const essayEntries: Entry[] = [
   {
     id: "conceptual-engineering-intutions",
-    title: "(WIP) Can Conceptual Engineering Work Without Intuitions? The Role of Digital Design in Experimental Philosophy",
+    title: "(Work in process) Can Conceptual Engineering Work Without Intuitions? The Role of Digital Design in Experimental Philosophy",
     date: "Forthcoming",
     tags: ["Conceptual Engineering", "Xphi"],
     abstract:
