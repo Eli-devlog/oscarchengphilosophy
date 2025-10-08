@@ -39,15 +39,15 @@ export const researchEntries: Entry[] = [
 
 export const essayEntries: Entry[] = [
   {
-    id: "choice-vs-information",
-    title: "The Real Advantage Isn’t More Options — It’s More Information",
-    date: "2025-09-30",
-    tags: ["Decision Theory", "Design"],
+    id: "conceptual-engineering-intutions",
+    title: "(WIP) Can Conceptual Engineering Work Without Intuitions? The Role of Digital Design in Experimental Philosophy",
+    date: "Forthcoming",
+    tags: ["Conceptual Engineering", "Xphi"],
     abstract:
-      "Why visibility of options beats quantity of options; the Krisp anecdote and hidden menus.",
+      "Conceptual Engineering offers a normative framework, while Machery gives an empirical solution. But What if Digital Design can offer a middle ground?",
     excerpt:
-      "We often measure freedom in terms of the number of choices. But freedom is about the visibility of choices…",
-    url: "https://www.linkedin.com/pulse/real-advantage-isnt-more-options-its-information-oscar-cheng-oo4pe/",
+      "Let's consider the possibility of conceptual engineering becomes a practice already alive in the architectures we inhabit every day.",
+    url: "https://docs.google.com/document/d/1ZWVqyzMFuAvMZbmaGuiwhLx1jUGtErfQdfsCSgSaB9Y/edit?usp=sharing",
     readTime: "7 min",
   },
 ];
