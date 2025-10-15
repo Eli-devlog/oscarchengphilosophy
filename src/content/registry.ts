@@ -40,8 +40,8 @@ export const researchEntries: Entry[] = [
 export const essayEntries: Entry[] = [
   {
     id: "conceptual-engineering-intutions",
-    title: "(Work in process) Can Conceptual Engineering Work Without Intuitions? The Role of Digital Design in Experimental Philosophy",
-    date: "Forthcoming",
+    title: "Conceptual Engineering Without Intuitions? The Role of Digital Design in Xphi",
+    date: "2025-10-08",
     tags: ["Conceptual Engineering", "Xphi"],
     abstract:
       "Conceptual Engineering offers a normative framework, while Machery gives an empirical solution. But What if Digital Design can offer a middle ground?",
