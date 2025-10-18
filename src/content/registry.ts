@@ -12,15 +12,15 @@ export type Entry = {
 
 export const researchEntries: Entry[] = [
   {
-    id: "design-epistemic-architecture",
-    title: "Design as Epistemic Architecture",
-    date: "2025-08-08",
+    id: "digital-design-epistemic-architecture",
+    title: "Digital Design as Epistemic Architecture",
+    date: "2025-10-18",
     tags: ["Conceptual Engineering", "Epistemology", "HCI"],
     abstract:
       "Design precedes knowledge:before we think or reason, the digital architecture has already framed what can be seen and valued.",
     excerpt:
       "In the 20th century, analytic philosophy often asked, “What is knowledge?” On the 21st, the more urgent question is: what architectures make knowledge possible, and who designs them?",
-    url: "https://docs.google.com/document/d/1ffHUqVnBm4A_JBT-Hl4VoOpjRsJX3K3L/edit?usp=share_link&ouid=112448101300131803947&rtpof=true&sd=true",
+    url: "https://docs.google.com/document/d/1ln95D1I1Hg5j4o3fW1y7ywIr1nkgAyhj/edit?usp=sharing&ouid=112448101300131803947&rtpof=true&sd=true",
     readTime: "10 min",
   },
   {
