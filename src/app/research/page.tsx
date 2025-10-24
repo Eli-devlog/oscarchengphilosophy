@@ -1,6 +1,5 @@
 // src/app/research/page.tsx
 import type { Metadata } from "next";
-import Link from "next/link";
 import { researchEntries } from "@/content/registry";
 
 export const metadata: Metadata = {
@@ -23,15 +22,15 @@ function formatDate(d: string) {
 
 export default function ResearchPage() {
   return (
-    <main className="mx-auto max-w-5xl px-6 pt-0 pb-16">
-      <header className="mb-10">
-        <h1 className="text-3xl font-semibold tracking-tight">Research</h1>
-        <p className="mt-3 text-neutral-600">
-        Working papers toward my PhD project on conceptual engineering and digital design.
+    <section className="space-y-6">
+      <header className="space-y-2">
+        <h1 className="text-3xl font-bold">Research</h1>
+        <p className="max-w-2xl text-gray-600">
+          Working papers toward my PhD project on conceptual engineering and digital design.
         </p>
       </header>
 
-      <section className="grid gap-6 md:grid-cols-2">
+      <div className="grid gap-6 md:grid-cols-2">
         {researchEntries.map((e) => (
           <article
             key={e.id}
@@ -91,8 +90,7 @@ export default function ResearchPage() {
             </div>
           </article>
         ))}
-      </section>
-
-    </main>
+      </div>
+    </section>
   );
 }

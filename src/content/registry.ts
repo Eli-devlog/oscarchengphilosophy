@@ -20,7 +20,7 @@ export const researchEntries: Entry[] = [
       "Design precedes knowledge:before we think or reason, the digital architecture has already framed what can be seen and valued.",
     excerpt:
       "In the 20th century, analytic philosophy often asked, “What is knowledge?” On the 21st, the more urgent question is: what architectures make knowledge possible, and who designs them?",
-    url: "https://docs.google.com/document/d/1ln95D1I1Hg5j4o3fW1y7ywIr1nkgAyhj/edit?usp=sharing&ouid=112448101300131803947&rtpof=true&sd=true",
+    url: "https://philpapers.org/go.pl?aid=CHEDDA-3",
     readTime: "10 min",
   },
   {
@@ -32,22 +32,22 @@ export const researchEntries: Entry[] = [
       "Digital design already functions as conceptual engineering. This essay examines how design shapes the concepts that shape us.",
     excerpt:
       "In this context, conceptual engineering becomes philosophy’s most practical method. The point where analysis meets design, and reflection becomes re-engineering.",
-    url: "https://docs.google.com/document/d/1tKE8BAJvbaelfBDLTfC7EjP-2kUsNJgi/edit?usp=sharing&ouid=112448101300131803947&rtpof=true&sd=true",
+    url: "https://philpapers.org/go.pl?aid=CHECEI-4",
     readTime: "15 min",
   },
 ];
 
 export const essayEntries: Entry[] = [
   {
-    id: "conceptual-engineering-intutions",
-    title: "Conceptual Engineering Without Intuitions? The Role of Digital Design in Xphi",
+    id: "rethinking-conceptual-engineering",
+    title: "Rethinking Conceptual Engineering: From Intuition to Design",
     date: "2025-10-08",
     tags: ["Conceptual Engineering", "Xphi"],
     abstract:
       "Conceptual Engineering offers a normative framework, while Machery gives an empirical solution. But What if Digital Design can offer a middle ground?",
     excerpt:
       "Let's consider the possibility of conceptual engineering becomes a practice already alive in the architectures we inhabit every day.",
-    url: "https://docs.google.com/document/d/1ZWVqyzMFuAvMZbmaGuiwhLx1jUGtErfQdfsCSgSaB9Y/edit?usp=sharing",
+    url: "https://philpapers.org/go.pl?aid=CHECCE-5",
     readTime: "7 min",
   },
 ];
