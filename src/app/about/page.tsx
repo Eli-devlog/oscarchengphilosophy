@@ -46,7 +46,7 @@ export default function About() {
    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
   <div className="overflow-hidden rounded-xl">
     <img
-      src="/Images/IMG_9839.jpg"
+      src="/Images/img_9839.jpg"
       alt="Oscar at HKU"
       className="w-full"
     />
