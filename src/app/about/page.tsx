@@ -54,7 +54,7 @@ export default function About() {
   </div>
   <div className="overflow-hidden rounded-xl">
     <img
-      src="/Images/IMG_5931.jpg"
+      src="/Images/img_5931.jpg"
       alt="Oscar at Oxford"
       className="w-full"
     />
