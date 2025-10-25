@@ -1,11 +1,15 @@
 // src/app/about/page.tsx
-
+export const metadata = {
+  title: "About | Oscar Cheng",
+  description:
+    "About me.",
+};
 import Image from "next/image";
 
 export default function About() {
   return (
-    <main className="mx-auto max-w-3xl px-6 py-12 space-y-8">
-      <header className="space-y-2">
+<main className="mx-auto max-w-3xl px-6 pt-4 pb-10 space-y-8 text-neutral-800 text-[15px] leading-relaxed">
+    <header className="space-y-2">
         <h1 className="text-3xl font-bold tracking-tight">About</h1>
         <p className="max-w-2xl text-gray-600">
           Conceptual engineering through design, language, and digital systems.
@@ -50,7 +54,7 @@ export default function About() {
       alt="Oscar at HKU"
       className="w-full"
     />
-    <p className="mt-2 text-sm text-neutral-600">Centennial Campus, where I first questioned structure</p>
+    <p className="mt-2 text-sm text-neutral-600">Centennial Campus, where I first understood that every structure is also a question</p>
   </div>
   <div className="overflow-hidden rounded-xl">
     <img
@@ -58,7 +62,7 @@ export default function About() {
       alt="Oscar at Oxford"
       className="w-full"
     />
-    <p className="mt-2 text-sm text-neutral-600">Radcliffe Camera — still arguing with systems</p>
+    <p className="mt-2 text-sm text-neutral-600">Radcliffe Camera, where I learned that systems answer back</p>
   </div>
 </div>
     </main>

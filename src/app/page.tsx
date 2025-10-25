@@ -19,21 +19,33 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="grid gap-4 sm:grid-cols-2">
-        <Card title="Research" subtitle="Projects & frameworks" href="/research">
-          Current focus: interfaces as epistemic infrastructures; designers as conceptual engineers; scroll-driven
-          architectures and affective cues.
-        </Card>
-        <Card title="Essays" subtitle="Short pieces & field notes" href="/essays">
-          Writing sprints on conceptual engineering, postphenomenology, and the attention economy.
-        </Card>
-        <Card title="About" subtitle="Background & approach" href="/about">
-          HKU → Oxford. Conceptual engineering meets design practice. Building a cross-over toolkit for digital systems.
-        </Card>
-        <Card title="Contact" subtitle="Collaborations & talks" href="/contact">
-          Speaking, workshop invites, supervision fit, or just a thoughtful note—always welcome.
-        </Card>
-      </div>
+<div className="grid gap-4 sm:grid-cols-2">
+  {/* Row 1 */}
+  <Card title="Research" subtitle="Projects & frameworks" href="/research">
+    Current focus: interfaces as epistemic infrastructures; designers as conceptual engineers; scroll-driven
+    architectures and affective cues.
+  </Card>
+  <Card title="Essays" subtitle="Short pieces & field notes" href="/essays">
+    Writing sprints on conceptual engineering, postphenomenology, and the attention economy.
+  </Card>
+
+  {/* Row 2 */}
+  <Card title="About" subtitle="Background & approach" href="/about">
+    HKU → Oxford. Conceptual engineering meets design practice. Building a cross-over toolkit for digital systems.
+  </Card>
+  <Card title="Contact" subtitle="Collaborations & talks" href="/contact">
+    Speaking, workshop invites, supervision fit, or just a thoughtful note—always welcome.
+  </Card>
+</div>
+
+{/* Centered Systems card */}
+<div className="mt-4 flex justify-center">
+  <div className="max-w-md w-full">
+    <Card title="Systems" subtitle="Rhythms & scaffolding" href="/routines">
+      Tools, structures, and symbolic routines that sustain focus, rhythm, and long-range research execution.
+    </Card>
+  </div>
+</div>
 
       <div className="rounded-2xl border p-6">
         <h2 className="text-xl font-semibold">Featured: Project Jupiter</h2>

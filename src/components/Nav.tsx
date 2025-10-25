@@ -7,7 +7,9 @@ const links = [
   { href: "/research", label: "Research" },
   { href: "/essays", label: "Essays" },
   { href: "/about", label: "About" },
+  { href: "/routines", label: "Systems" },
   { href: "/contact", label: "Contact" },
+  ,
 ];
 
 export default function Nav() {

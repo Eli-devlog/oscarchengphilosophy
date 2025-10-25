@@ -3,6 +3,12 @@ import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
+<head>
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
 export const metadata: Metadata = {
   title: "Oscar Cheng — Philosophy & Design",
   description:
@@ -12,7 +18,9 @@ export const metadata: Metadata = {
   // ✅ add trust + PWA indicators
   themeColor: "#ffffff",
   icons: {
-    icon: "/favicon.ico", // optional, if you have one
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
   },
   openGraph: {
     title: "Oscar Cheng — Philosophy & Design",
