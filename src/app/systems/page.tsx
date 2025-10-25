@@ -1,4 +1,4 @@
-// src/app/routines/page.tsx
+// src/app/systems/page.tsx
 
 export const metadata = {
   title: "Systems | Oscar Cheng",
