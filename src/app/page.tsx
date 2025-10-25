@@ -41,7 +41,7 @@ export default function Home() {
 {/* Centered Systems card */}
 <div className="mt-4 flex justify-center">
   <div className="max-w-md w-full">
-    <Card title="Systems" subtitle="Rhythms & scaffolding" href="/routines">
+    <Card title="Systems" subtitle="Rhythms & scaffolding" href="/systems">
       Tools, structures, and symbolic routines that sustain focus, rhythm, and long-range research execution.
     </Card>
   </div>
