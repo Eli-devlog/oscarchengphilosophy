@@ -16,53 +16,63 @@ export default function Routines() {
         </p>
       </header>
 
-      <section className="rounded-2xl border border-neutral-200 bg-neutral-50 p-6 shadow-sm hover:shadow-md transition-all space-y-5">
-        <h2 className="text-xl font-semibold tracking-tight text-neutral-900">
-          🧰 Core Tools — Structure
-        </h2>
-        <div className="space-y-4">
-          <p>
-            — <strong>
-              <a href="https://habitica.com/profile/2a89c218-a124-495e-b77a-ca328bc3361d"
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 className="underline decoration-dotted underline-offset-4 hover:text-black">
-                Habitica
-              </a>
-            </strong>: Gamified habit tracker. Low-friction scaffolding for rhythm without coercion.
-          </p>
-          <p>
-            — <strong>
-              <a href="https://toggl.com"
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 className="underline decoration-dotted underline-offset-4 hover:text-black">
-                Toggl
-              </a>
-            </strong>: Time tracking for sprints. Reveals temporal drift and hidden effort.
-          </p>
-          <p>
-            — <strong>
-              <a href="https://obsidian.md"
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 className="underline decoration-dotted underline-offset-4 hover:text-black">
-                Obsidian + Tagging System
-              </a>
-            </strong>: Zettelkasten-inspired. Linked notes trace long-range ideas and semantic arcs.
-          </p>
-          <p>
-            — <strong>
-              <a href="https://www.calnewport.com/books/digital-minimalism/"
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 className="underline decoration-dotted underline-offset-4 hover:text-black">
-                Feature Phone + Timed Lockbox
-              </a>
-            </strong>: Ritualized disconnection. Defends deep work through bounded environments.
-          </p>
-        </div>
-      </section>
+    <section className="rounded-2xl border border-neutral-200 bg-neutral-50 p-6 shadow-sm hover:shadow-md transition-all space-y-5">
+  <h2 className="text-xl font-semibold tracking-tight text-neutral-900">
+    🧰 Core Tools — Structure
+  </h2>
+  <div className="space-y-4">
+    <p>
+      — <strong>
+        <a href="https://habitica.com/profile/2a89c218-a124-495e-b77a-ca328bc3361d"
+           target="_blank"
+           rel="noopener noreferrer"
+           className="underline decoration-dotted underline-offset-4 hover:text-black">
+          Habitica
+        </a>
+      </strong>: Gamified habit tracker. Low-friction scaffolding for rhythm without coercion.
+    </p>
+    <p>
+      — <strong>
+        <a href="https://toggl.com"
+           target="_blank"
+           rel="noopener noreferrer"
+           className="underline decoration-dotted underline-offset-4 hover:text-black">
+          Toggl
+        </a>
+      </strong>: Time tracking for sprints. Reveals temporal drift and hidden effort.
+    </p>
+    <p>
+      — <strong>
+        <a href="https://obsidian.md"
+           target="_blank"
+           rel="noopener noreferrer"
+           className="underline decoration-dotted underline-offset-4 hover:text-black">
+          Obsidian + Tagging System
+        </a>
+      </strong>: Zettelkasten-inspired. Linked notes trace long-range ideas and semantic arcs.
+    </p>
+    <p>
+      — <strong>
+        <a href="https://www.calnewport.com/books/digital-minimalism/"
+           target="_blank"
+           rel="noopener noreferrer"
+           className="underline decoration-dotted underline-offset-4 hover:text-black">
+          Feature Phone + Timed Lockbox
+        </a>
+      </strong>: Ritualized disconnection. Defends deep work through bounded environments.
+    </p>
+    <p>
+      — <strong>
+        <a href="https://chat.openai.com"
+           target="_blank"
+           rel="noopener noreferrer"
+           className="underline decoration-dotted underline-offset-4 hover:text-black">
+          LLM Customization
+        </a>
+      </strong>: Recursive profile tuning and prompt architecture. A cognitive prosthetic without dependency.
+    </p>
+  </div>
+</section>
 
       <section className="rounded-2xl border border-neutral-200 bg-neutral-50 p-6 shadow-sm hover:shadow-md transition-all space-y-5">
         <h2 className="text-xl font-semibold tracking-tight text-neutral-900">
@@ -72,7 +82,6 @@ export default function Routines() {
           <p>— <strong>Walking:</strong> Daily, device-free movement. Restores internal tempo and metabolizes thought.</p>
           <p>— <strong>Aesthetic intake:</strong> Reading mirrors of contemporary sense-making, training perception to read the world.</p>
           <p>— <strong>Cultural probes:</strong> Fiction, media, and interaction as laboratories of alternative systems.</p>
-          <p>— <strong>Psychoanalysis:</strong> Dreamwork and symbolic self-listening. Inner excavation as method.</p>
         </div>
       </section>
 
